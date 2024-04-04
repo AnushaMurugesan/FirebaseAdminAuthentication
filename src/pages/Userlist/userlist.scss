@@ -1,0 +1,84 @@
+
+.formheader {
+    display: flex;
+    justify-content: space-between;
+
+    .formheading {
+        color: black;
+        margin-left: 20px;
+    }
+
+}
+.createbtn {
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.title{
+    text-align: center;
+}
+
+.signoutbtn {
+    margin-top: 25px;
+}
+
+
+.two-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+    .prev {
+        border: #2edcf3;
+        background-color: #2edcf3;
+        font-weight: 600;
+        margin-right: 8px;
+    }
+
+
+    .next {
+        border: #2edcf3;
+        background-color: #2edcf3;
+        margin-left: 22px;
+        font-weight: 600;
+    }
+
+}
+
+.circular-image {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    .circular-image-inner {
+        width: 50px;
+        height: 50px;
+        object-fit:cover;
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(112, 101, 101);
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aea5a5;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
